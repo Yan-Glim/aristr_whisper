@@ -4,7 +4,7 @@ A simple project fast create str file with langchain memory for learning
 个人学习写的简单的asr项目
 
 ## 环境
-- 使用conda安装虚拟环境使用
+- 推荐使用conda安装虚拟环境使用
 - 安装stable_whisper,langchain
 ```shell
 pip install stable-ts langchain langchain-openai
@@ -16,7 +16,7 @@ pip install stable-ts langchain langchain-openai
 /no-think
 ```
 
-## menmory
+## memory
 - 默认使用langchain的思维窗 窗口大小可根据llm自行调整
 - 可以使用ConversationBufferMemory(),这样history会包含整个对话信息，可能效果会更好但是幻觉非常严重
 
